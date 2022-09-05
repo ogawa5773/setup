@@ -31,8 +31,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 curl https://get.volta.sh | bash
 volta install node
 npm install --global typescript
-# https://volta.sh/
-# https://www.typescriptlang.org/download
+# https://volta.sh/, https://www.typescriptlang.org/download
 
 ### Terraform
 brew install tfenv
@@ -47,6 +46,6 @@ sudo installer -pkg AWSCLIV2.pkg -target /
 brew install kubectl
 # https://kubernetes.io/ja/docs/tasks/tools/install-kubectl/
 
-# MySQL
+### MySQL
 # brew install mysql
 # https://prog-8.com/docs/mysql-env
